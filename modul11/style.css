@@ -1,0 +1,39 @@
+p{ 
+color: pink;
+font-size: 14px;
+text-decoration: wavy;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+
+padding: 20px;
+margin-top: 200px;
+margin-left: 200px;
+}
+
+.card{
+
+width: 200px;
+height: auto;
+border: 3px solid pink;
+padding: 20px;
+text-align: center;
+margin-top: 50px;
+margin-left: 100px;
+
+
+
+}
+
+
+.card img{
+
+width: 180px;
+
+}
