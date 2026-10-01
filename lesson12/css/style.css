@@ -1,0 +1,28 @@
+h1{
+    background-color: pink;
+    letter-spacing: 30px;
+    word-spacing: 30px;
+    text-indent: 20px;
+}
+
+p{
+    text-indent: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    text-decoration: overline;
+}
+
+h3{
+    text-decoration: line-through;
+}
+
+p{
+    /*writing-mode:vertical-lr ;*/
+    /*writing-mode:vertical-rl ;*/
+    writing-mode: horizontal-tb;
+    
+}
+
