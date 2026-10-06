@@ -1,0 +1,42 @@
+/*ul{
+    list-style-type: square;
+}
+
+ul{
+    list-style-image: url("../img/images.png");
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+*/
+ul{
+    list-style-type: none;
+    padding: 0%;
+    border: 2px solid;
+
+}
+
+ul li{
+    padding: 8px 16px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid #eee;
+    padding: 16px;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(212, 136, 200);
+}
+
+div{
+    overflow: scroll;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
