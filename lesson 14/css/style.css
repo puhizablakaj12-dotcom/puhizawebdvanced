@@ -1,0 +1,48 @@
+article p{
+    background-color: rgb(220, 145, 230);
+    color: rgb(94, 3, 89);
+    padding: 20px;
+}
+
+article > p{
+    background-color: rgb(226, 100, 226);
+}
+
+ article ~p{
+     background-color: rgb(205, 132, 214);
+    color: rgb(226, 29, 216);
+    padding: 20px;
+ }
+
+ article + p{
+    background-color: rgb(207, 134, 204);
+ }
+
+
+  input:out-of-range{
+    border: 60px 
+  }
+
+  span:first-of-type{
+ background-color: rgb(220, 145, 230);
+    color: rgb(94, 3, 89);
+    padding: 12px;
+
+  }
+
+  form{
+    padding: 20px;
+
+  }
+
+ input:valid{
+    border: 2px rgb(238, 113, 238);
+ } 
+
+ input:valid{
+    border: 2px rgb(228, 105, 207);
+ } 
+ 
+ div{
+    opacity: 0.1;
+ }
