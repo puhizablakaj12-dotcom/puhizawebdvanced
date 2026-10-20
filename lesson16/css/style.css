@@ -1,0 +1,30 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    width: 180px;
+}
+
+div.gallery img{
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+}
+div.gallery:hover{
+    border: 5px solid rgb(216, 146, 230);
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+.sprite{
+    background: url(../images/images5.jpg) no-repeat;
+}
+
+.sprite{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+}
