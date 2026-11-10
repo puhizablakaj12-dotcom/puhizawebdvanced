@@ -1,0 +1,46 @@
+@media(min-width:600px){
+    body{
+   background-color: pink; 
+    color: white ; 
+    }
+}
+
+@media all and (max-width:600px){
+    body{
+   background-color: rgb(230, 111, 235); 
+    color: white ; 
+    }
+}
+
+h1{
+    border: 2px rgb(228, 124, 231);
+    padding: 10px;
+}
+
+@media all and (orientation:landscape){
+ h1{
+font-size :80px;
+ }}
+
+ @media all and (orientation:portrait){
+ h1{
+font-size :10px;
+ }}
+
+ @media (min-width:600px) and (max-width:900){
+    img{
+        display: none;
+    }
+ }
+
+ @media(min-width:600px){
+    p{
+        column-count: 2;
+    }
+ }
+
+ @media print {
+    body{
+        background-color: transparent;
+    }
+ }
